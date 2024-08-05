@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "moadian2"
+version = "0.0.2"
+description = "Connect to Moadian API V2"
+readme = "README.md"
+authors = [{ name = "Mojtaba Karimi", email = "hi@thisiskarimi.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["moadian", ]
+
+requires-python = ">=3.7"
+
+dependencies = [
+    "requests",
+    "Authlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/thisiskarimi/moadian2"
+Issues = "https://github.com/thisiskarimi/moadian2/issues"
